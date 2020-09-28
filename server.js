@@ -13,7 +13,8 @@ app.use(cors())
 app.get('/', (req, res) => {
     return res.json([
         {name: 'bruneras'},
-        {name: 'zézão'}
+        {name: 'zézão'},
+        {name: 'pepe'},
     ])
 })
 
